@@ -1,43 +1,28 @@
-// Definición de los pines
-const int RPWM_Pin = 26; // Control hacia adelante
-const int LPWM_Pin = 27; // Control en reversa
-const int REN_Pin = 35;  // Habilita el movimiento hacia adelante
-const int LEN_Pin = 34;  // Habilita el movimiento en reversa
+#define ledcSetup
+#define ledcAttachPin
+
+const int pinN4 = 22;    // Pin GPIO del ESP32 para N4
+const int pinM3 = 2;     // Pin GPIO del ESP32 para M3
+const int freq = 25000;  // Frecuencia deseada (25 kHz)
+const int pulseWidth = 20; // Ancho del pulso en microsegundos (simulando 50% del ciclo de trabajo)
+const int period = 1000000 / freq; // Periodo total en microsegundos (40 µs)
 
 void setup() {
-  // Inicializar los pines como salida
-  pinMode(RPWM_Pin, OUTPUT);
-  pinMode(LPWM_Pin, OUTPUT);
-  pinMode(REN_Pin, OUTPUT);
-  pinMode(LEN_Pin, OUTPUT);
-
-  // Inicializar el monitor serie para depuración
-  Serial.begin(115200);
-
-  // Habilitar ambos canales del puente H
-  digitalWrite(REN_Pin, HIGH); // Habilitar canal hacia adelante
-  digitalWrite(LEN_Pin, LOW);  // Deshabilitar canal en reversa
-
-  // Iniciar con el piezoeléctrico apagado
-  analogWrite(RPWM_Pin, 0);
-  analogWrite(LPWM_Pin, 0);
-
-  Serial.println("Sistema inicializado");
+  // Configura los pines como salidas
+  pinMode(pinN4, OUTPUT);
+  pinMode(pinM3, OUTPUT);
 }
 
 void loop() {
-  // Enviar pulsos de PWM para el piezoeléctrico
-  int frecuencia = 100000; // Frecuencia de 100 kHz
-  int tiempoOn = 1 / (2 * frecuencia); // Tiempo de pulso (mitad de ciclo)
-  
-  // Generar pulsos de alta frecuencia
-  for (int i = 0; i < 5; i++) {
-    digitalWrite(RPWM_Pin, HIGH); // Encender el piezoeléctrico
-    delayMicroseconds(tiempoOn);  // Mantener encendido
-    digitalWrite(RPWM_Pin, LOW);  // Apagar el piezoeléctrico
-    delayMicroseconds(tiempoOn);  // Mantener apagado
-  }
+  // Simula la señal PWM para N4
+  digitalWrite(pinN4, HIGH);
+  delayMicroseconds(pulseWidth); // Tiempo alto del pulso
+  digitalWrite(pinN4, LOW);
+  delayMicroseconds(period - pulseWidth); // Tiempo bajo del pulso
 
-  // Pausa de 1 segundo entre ráfagas de pulsos
-  delay(1000);
+  // Simula la señal PWM para M3
+  digitalWrite(pinM3, HIGH);
+  delayMicroseconds(pulseWidth); // Tiempo alto del pulso
+  digitalWrite(pinM3, LOW);
+  delayMicroseconds(period - pulseWidth); // Tiempo bajo del pulso
 }
