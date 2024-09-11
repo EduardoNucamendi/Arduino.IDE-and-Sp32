@@ -7,7 +7,7 @@
 #define DHTPIN 4       // Pin donde está conectado el DHT22
 #define DHTTYPE DHT22  // Definir tipo de sensor DHT
 #define HUMSUEL_PIN 33 // Pin para la humedad del suelo
-#define RELAY_PIN 15   // Pin para el relé
+#define RELAY_PIN 5   // Pin para el relé
 
 // Configuración del I2C
 #define I2C_SDA_PIN 21 // Pin I2C para SDA

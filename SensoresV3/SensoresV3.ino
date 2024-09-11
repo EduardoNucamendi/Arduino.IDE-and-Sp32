@@ -7,8 +7,8 @@
 #define DHTPIN 4       // Pin donde está conectado el DHT22
 #define DHTTYPE DHT22  // Definir tipo de sensor DHT
 #define HUMSUEL_PIN 33 // Pin para la humedad del suelo
-#define RELAY_PIN 15   // Pin para el relé
-#define N4_PIN 22      // Pin GPIO del ESP32 para N4
+#define RELAY_PIN 5   // Pin para el relé
+#define N4_PIN 15      // Pin GPIO del ESP32 para N4
 #define M3_PIN 2       // Pin GPIO del ESP32 para M3
 
 // Configuración del I2C 
