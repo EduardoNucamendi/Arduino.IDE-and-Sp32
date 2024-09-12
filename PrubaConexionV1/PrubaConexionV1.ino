@@ -44,7 +44,9 @@ void loop() {
   // Enviar los datos mediante POST
   EnvioDatos();
   
-  delay(60000); // Esperar 60 segundos entre envíos
+  //delay(10000);
+ delay(900000);  // 15 minutos
+
 }
 
 // Función para leer temperatura y humedad
@@ -81,7 +83,7 @@ void EnvioDatos() {
     String datos_a_enviar = "temperatura=" + String(t) + "&humedad=" + String(h);
 
     // Cambiar por la URL de tu servidor
-    http.begin(client, "http://germinadoripn.ddns.net/");
+    http.begin(client, "http://germinadoripn.ddns.net/EspPost.php");
     http.addHeader("Content-Type", "application/x-www-form-urlencoded"); // Definir tipo de contenido
 
     int codigo_respuesta = http.POST(datos_a_enviar); // Enviar los datos por POST
