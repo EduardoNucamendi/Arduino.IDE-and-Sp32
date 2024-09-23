@@ -3,8 +3,8 @@
 #include "DHT.h" // Librería DHT para los sensores
 
 // Definir credenciales de la red WiFi
-const char* ssid = "TilinesTec";
-const char* password = "ConectatePa123";
+const char* ssid = "US_CICATA";
+const char* password = "USCICATA2024";
 
 // Pines de los tres sensores DHT22
 #define DHTPIN1 15
@@ -89,7 +89,7 @@ void EnviarDatos(float temp1, float hum1, float temp2, float hum2, float temp3, 
                             "&temp3=" + String(temp3) + "&hum3=" + String(hum3);
 
     // Cambiar por la URL de tu servidor
-    http.begin(client, "http://germinadoripn.ddns.net/EspPost.php");
+    http.begin(client, "http://samayoaprojects.com.mx/PostGerminador.php");
     http.addHeader("Content-Type", "application/x-www-form-urlencoded"); // Definir tipo de contenido
 
     // Enviar los datos por POST
@@ -97,7 +97,7 @@ void EnviarDatos(float temp1, float hum1, float temp2, float hum2, float temp3, 
 
     // Comprobar el código de respuesta HTTP
     if (codigo_respuesta > 0) {
-      Serial.println("Código HTTP: " + String(codigo_respuesta));
+      Serial.println("Código HTTP: " + String(codigo_respuesta)); 
       if (codigo_respuesta == 200) {
         String cuerpo_respuesta = http.getString();
         Serial.println("Respuesta del servidor: ");

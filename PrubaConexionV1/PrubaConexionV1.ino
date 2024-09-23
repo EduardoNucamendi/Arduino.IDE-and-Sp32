@@ -83,7 +83,7 @@ void EnvioDatos() {
     String datos_a_enviar = "temperatura=" + String(t) + "&humedad=" + String(h);
 
     // Cambiar por la URL de tu servidor
-    http.begin(client, "http://ipnproyecto.ddns.net/EspPost.php");
+    http.begin(client, "http://www.samayoaprojects.com.mx/EspPost.php");
     http.addHeader("Content-Type", "application/x-www-form-urlencoded"); // Definir tipo de contenido
 
     int codigo_respuesta = http.POST(datos_a_enviar); // Enviar los datos por POST
