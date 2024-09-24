@@ -1,0 +1,171 @@
+[20-Sep-2024 14:31:18 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:31:18 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:31:18 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:31:18 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:31:25 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:31:25 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:31:25 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:31:25 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:34:07 America/Mexico_City] PHP Warning:  include(conexion.php): Failed to open stream: No such file or directory in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:34:07 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:34:07 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:34:07 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:34:07 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:34:20 America/Mexico_City] PHP Warning:  include(conexion.php): Failed to open stream: No such file or directory in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:34:20 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:34:20 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:34:20 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:34:20 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:34:22 America/Mexico_City] PHP Warning:  include(conexion.php): Failed to open stream: No such file or directory in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:34:22 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:34:22 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:34:22 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:34:22 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:35:47 America/Mexico_City] PHP Warning:  include(conexion.php): Failed to open stream: No such file or directory in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:35:47 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:35:47 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:35:47 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:35:47 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:36:40 America/Mexico_City] PHP Warning:  include(conexion.php): Failed to open stream: No such file or directory in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:36:40 America/Mexico_City] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/samayoap/public_html/index.php on line 2
+[20-Sep-2024 14:36:40 America/Mexico_City] PHP Warning:  Undefined variable $con in /home1/samayoap/public_html/index.php on line 4
+[20-Sep-2024 14:36:40 America/Mexico_City] PHP Warning:  Undefined variable $resultado_todos in /home1/samayoap/public_html/index.php on line 141
+[20-Sep-2024 14:36:40 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/samayoap/public_html/index.php:141
+Stack trace:
+#0 /home1/samayoap/public_html/index.php(141): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/samayoap/public_html/index.php on line 141
+[23-Sep-2024 12:05:26 America/Mexico_City] PHP Warning:  Undefined variable $conexion in /home1/samayoap/public_html/PostGerminador.php on line 25
+[23-Sep-2024 12:05:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/samayoap/public_html/PostGerminador.php:25
+Stack trace:
+#0 /home1/samayoap/public_html/PostGerminador.php(25): mysqli_query(NULL, 'INSERT INTO Tb_...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/PostGerminador.php on line 25
+[23-Sep-2024 12:05:39 America/Mexico_City] PHP Warning:  Undefined variable $conexion in /home1/samayoap/public_html/PostGerminador.php on line 25
+[23-Sep-2024 12:05:39 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/samayoap/public_html/PostGerminador.php:25
+Stack trace:
+#0 /home1/samayoap/public_html/PostGerminador.php(25): mysqli_query(NULL, 'INSERT INTO Tb_...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/PostGerminador.php on line 25
+[23-Sep-2024 12:46:38 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:46:41 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:47:11 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:47:13 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:47:40 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:47:42 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:48:00 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:48:02 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:54:07 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/Germinador1.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/Germinador1.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/Germinador1.php on line 24
+[23-Sep-2024 12:54:34 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/G.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/G.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/G.php on line 24
+[23-Sep-2024 12:54:42 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/G.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/G.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/G.php on line 24
+[23-Sep-2024 12:57:10 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tem_prom' doesn't exist in /home1/samayoap/public_html/G.php:24
+Stack trace:
+#0 /home1/samayoap/public_html/G.php(24): mysqli_query(Object(mysqli), 'INSERT INTO Tem...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/G.php on line 24
+[23-Sep-2024 13:11:42 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tb_DHT22_Sensor2' doesn't exist in /home1/samayoap/public_html/deshidratador.php:11
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 11
+[23-Sep-2024 13:11:43 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tb_DHT22_Sensor2' doesn't exist in /home1/samayoap/public_html/deshidratador.php:11
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 11
+[23-Sep-2024 13:11:44 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tb_DHT22_Sensor2' doesn't exist in /home1/samayoap/public_html/deshidratador.php:11
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 11
+[23-Sep-2024 13:13:30 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tb_DHT22_Sensor2' doesn't exist in /home1/samayoap/public_html/deshidratador.php:11
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 /home1/samayoap/public_html/deshidratador.php(21): obtenerDatosSensor(Object(mysqli), 'Tb_DHT22_Sensor...')
+#2 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 11
+[23-Sep-2024 13:13:31 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tb_DHT22_Sensor2' doesn't exist in /home1/samayoap/public_html/deshidratador.php:11
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 /home1/samayoap/public_html/deshidratador.php(21): obtenerDatosSensor(Object(mysqli), 'Tb_DHT22_Sensor...')
+#2 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 11
+[23-Sep-2024 13:13:58 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'samayoap_DatoV2.Tb_DHT22_Sensor2' doesn't exist in /home1/samayoap/public_html/deshidratador.php:11
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(11): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 /home1/samayoap/public_html/deshidratador.php(21): obtenerDatosSensor(Object(mysqli), 'Tb_DHT22_Sensor...')
+#2 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 11
+[23-Sep-2024 13:31:41 America/Mexico_City] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'sensor' in 'where clause' in /home1/samayoap/public_html/deshidratador.php:14
+Stack trace:
+#0 /home1/samayoap/public_html/deshidratador.php(14): mysqli_query(Object(mysqli), 'SELECT * FROM T...')
+#1 {main}
+  thrown in /home1/samayoap/public_html/deshidratador.php on line 14
